@@ -28,7 +28,7 @@ git remote -v
 git push -u origin master
 
 -------------------------------------------------
-
+# branch:
 ## to check current branchs:
 git branch
 
@@ -39,3 +39,4 @@ git checkout -b feature-1
 git checkout master
 
 
+## 

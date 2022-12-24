@@ -26,3 +26,16 @@ git remote add origin https://github.com/Milad-Mrz/test2.git
 git remote -v
 ## to set an defult branch for future pushes we can use  "-u" just before "origin master"
 git push -u origin master
+
+-------------------------------------------------
+
+## to check current branchs:
+git branch
+
+## to create a new branch as "feature-1"
+git checkout -b feature-1
+
+## to switch to "master" branch
+git checkout master
+
+

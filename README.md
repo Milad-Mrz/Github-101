@@ -2,9 +2,12 @@
 
 ## Method no. 1
 
-git clone https://github.com/Milad-Mrz/test.git \n
+git clone https://github.com/Milad-Mrz/test.git
+## 
 git add .
+##
 git commit -m "..." -m "...2"
+##
 git push origin main or git push origin master
 
 ---------------------------

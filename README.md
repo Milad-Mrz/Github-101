@@ -2,15 +2,25 @@
 
 ## Method no. 1
 1. to clone / download the repository from git: 
+
 ``` git clone https://github.com/user_name/repository_name ```
+
 2. to add all changes (either files or new lines): 
+
 ``` git add . ``` 
+
 or to add changes for specific file: 
+
 ``` git add "file_name.extention" ```  
+
 3. to add new commit with title A and description B: 
+
 ``` git commit -m "..." -m "...2" ```
+
 4. to push the changes to Github: 
+
 ``` git push origin main or git push origin master ```
+
 
 ---------------------------
 
@@ -22,7 +32,7 @@ or to add changes for specific file:
 3. to add new commit with title A and description B: 
 ``` git commit -m "A" -m "B" ```
 4. after making a new repository to connect it with VS: 
-``` git remote add origin https://github.com/Milad-Mrz/test2.git ```
+``` git remote add origin https://github.com/user_name/repository_name ```
 5. to check the access: 
 ``` git remote -v ```
 6. to set an defult branch for future pushes we can use  "-u" just before "origin master": 

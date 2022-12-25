@@ -6,12 +6,14 @@ Here is a summary of commands for pushing, pulling, and branching after connecti
 **Method I:**
 
 Clone or download the existing repository from git:
+
 ``` git clone https://github.com/user_name/repository_name ```
 
 **Method II:**
 1. Start git for a new folder:
 ``` git start ```
 2. Access the existing repository from git:
+
 ``` git remote add origin https://github.com/user_name/repository_name ```
 3. Check the access:
 ``` git remote -v ```

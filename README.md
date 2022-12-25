@@ -31,7 +31,7 @@ Clone or download the existing repository from git:
 3. Create a new commit with title "A" and description "B":
 ``` git commit -m A -m B ```
 
-or in short instead step 2 & 3 to add and commit at the same time: (only in case of file modification not creation)
+or, in short, instead of steps 2 & 3, add and commit at the same time: (only in cases of file modification, not creation)
 
 ``` git commit -am A -m B ```
 
@@ -42,21 +42,21 @@ or in short instead step 2 & 3 to add and commit at the same time: (only in case
 5. To set a default branch for future pushes, we can use "-u" just before "origin":
 ``` git push -u origin branch_name ```
 
-after this by simply writting  ``` git push ``` changes will be pushed to Github
+After this, by simply writing  ``` git push ``` changes will be pushed to Github.
 
 
 
-## Branching, merging and pulling:
+## Branching, merging, and pulling:
 1. To check all branches:
 ``` git branch ```
 
 2. To create a new branch named "A":
 ``` git checkout -b A ```
 
-3. switch to for example the "master" branch:
+3. switch to, for example, the "master" branch:
 ``` git checkout master ``` 
 
-4. Check current code to the "branch_name" and show changes that have been made:
+4. Check the current code for the "branch_name" and show the changes that have been made:
 ``` git diff "branch_name" ```
 
 (If there are confilicts between two versions then:
@@ -67,9 +67,9 @@ press **q** to quit and you can address those confilits by merging)
 
 or  ``` git merge "branch_name" ```
 
-(after the merg, pull, commit, and push again)
+(after the merge, pull, commit, and push again)
 
-6. Pull branch (to merge on current system):
+6. Pull a branch (to merge with a remote branch):
 ``` git pull origin "branch_name" ```
 
 7. Delete a local branch:
@@ -77,4 +77,4 @@ or  ``` git merge "branch_name" ```
 to delete a branch on Github use the platform
 
 ## Forking:
-to creat editable legal copy of any third-party code and add it to your repository.
+to create an editable legal copy of any third-party code and add it to your repository.

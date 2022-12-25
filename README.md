@@ -59,3 +59,7 @@ after this by simply writting  ``` git push ``` changes will be pushed to Github
 
  Merging diffrent branches:
 ``` git merg ```
+
+6. Delete branch:
+``` git branch -d "branch_name" ```
+

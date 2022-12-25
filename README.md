@@ -4,15 +4,17 @@ Here is a summary of commands for pushing, pulling, and branching after connecti
 
 ## Clone or remote 
 **Method I:**
+
 Clone or download the existing repository from git:
 
 ``` git clone https://github.com/user_name/repository_name ```
 
 **Method II:**
+
 1. Start git for a new folder:
 ``` git start ```
 
-2. Access the existing repository from git:
+2. Access the existing repository from Github:
 
 ``` git remote add origin https://github.com/user_name/repository_name ```
 
@@ -30,9 +32,8 @@ Clone or download the existing repository from git:
 3. Create a new commit with title "A" and description "B":
 ``` git commit -m A -m B ```
 
-   or, in short, instead of steps 2 & 3, add and commit at the same time: (only in cases of file modification, not creation)
-
-``` git commit -am A -m B ```
+   or, use the shortcut, instead of steps 2&3, add all modifed files and commit at the same time: ``` git commit -am A -m B ```
+   (this canbe used in cases of file modification and not file creation)
 
 
 4. Push the changes to the "branch_name":

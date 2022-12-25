@@ -1,49 +1,56 @@
-# how to use github
+# How to use Github 101
+Here is a summary of commands for pushing, pulling, and branching after connecting your local machine to the website.
 
+
+## Remote or clone
 ## Method no. 1
-1. to clone / download the repository from git: 
-``` git clone https://github.com/user_name/repository_name ```
-
-2. to add all changes (either files or new lines): 
-``` git add . ``` 
-
-or to add changes for specific file: 
-``` git add "file_name.extention" ```  
-
-3. to add new commit with title A and description B: 
-``` git commit -m "..." -m "...2" ```
-
-4. to push the changes to Github: 
-``` git push origin main or git push origin master ```
+to clone or download the existing repository from git:
+"`` git clone https://github.com/user_name/repository_name "``
 
 
 ## Method no. 2
-1. to start git for new folder: 
-``` git init ```
+1. To start git for a new folder:
+''' git start '''
+2. To access the existing repository from git:
+"git remote add origin": https://github.com/user_name/repository_name ```
 
-2. to add all changes (either files or new lines): 
-``` git add . ```
 
-3. to add new commit with title A and description B: 
+3. Check the access:
+git remote -v '''
+
+
+## Push
+1. To add all changes (either files or new lines):
+'''git add'''
+
+
+2. to make modifications to a specific file:
+``` git add "file_name.extension" ```
+
+
+3. To create a new commit with title A and description B:
 ``` git commit -m "A" -m "B" ```
 
-4. after making a new repository to connect it with VS: 
-``` git remote add origin https://github.com/user_name/repository_name ```
 
-5. to check the access: 
-``` git remote -v ```
+4. To push the changes to Github:
+"git push origin main" or "git push origin master"
 
-6. to set an defult branch for future pushes we can use  "-u" just before "origin master": 
-``` git push -u origin master ```
+
+5. To set a default branch for future pushes, we can use "-u" just before "origin master":
+"git push -u origin master"
+
 
 -------------------------------------------------
 
-## branch:
-1. to check current branchs: 
-``` git branch ```
 
-2. to create a new branch as "feature-1": 
-``` git checkout -b feature-1 ```
+## branching:
+1. To check current branches:
+git branch '''
 
-3. to switch to "master" branch: 
-``` git checkout master ```
+
+2. to create a new branch named "feature-1":
+"`` git checkout -b feature-1 "``
+
+
+3. To switch to the "master" branch:
+''' git master checkout ''' 

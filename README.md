@@ -59,22 +59,18 @@ After this, by simply writing  ``` git push ``` changes will be pushed to Github
 4. Check the current code for the "branch_name" and show the changes that have been made:
 ``` git diff "branch_name" ```
 
-(If there are confilicts between two versions then:
-press **q** to quit and you can address those confilits by merging)
+   (If there are confilicts between two versions then:
+   press **q** to quit and you can address those confilits by merging)
 
 5. To update your side branch by master/main branch: 
-``` git merge master ```
+``` git merge master ``` or  ``` git merge "branch_name" ```, after the local merge, pull, commit, and push to update the remote version)
 
-or  ``` git merge "branch_name" ```
-
-(after the merge, pull, commit, and push again)
-
-6. Pull a branch (to merge with a remote branch):
+6. Pull a branch (to merge with a remote branch), 
 ``` git pull origin "branch_name" ```
 
-7. Delete a local branch:
+7. Delete a local branch, 
 ``` git branch -D "branch_name" ```
-to delete a branch on Github use the platform
+& to delete a branch on Github use the platform
 
 ## Forking:
-to create an editable legal copy of any third-party code and add it to your repository.
+To create an editable legal copy of any third-party code and add it to your repository.

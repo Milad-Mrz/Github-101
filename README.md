@@ -70,3 +70,6 @@ press "q" to quit
 
 7. Pull branch:
 ``` git pull origin "branch_name" ```
+
+8. merging is kinda pull
+

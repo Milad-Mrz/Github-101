@@ -4,6 +4,7 @@ Here is a summary of commands for pushing, pulling, and branching after connecti
 
 ## Clone or remote 
 **Method I:**
+
 Clone or download the existing repository from git:
 ``` git clone https://github.com/user_name/repository_name ```
 

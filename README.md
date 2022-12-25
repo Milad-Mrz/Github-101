@@ -45,5 +45,10 @@ Clone or download the existing repository from git:
 2. To create a new branch named "A":
 ``` git checkout -b A ```
 
-3. To switch to the "master" branch:
+3. switch to for example the "master" branch:
 ``` git master checkout ``` 
+
+4. Check what changes have been made:
+``` git diff "branch_name" ```
+
+5. TEST

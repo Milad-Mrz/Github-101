@@ -54,5 +54,8 @@ after this by simply writting  ``` git push ``` changes will be pushed to Github
 4. Check what changes have been made:
 ``` git diff "branch_name" ```
 
-5. Merging diffrent branches:
+5. 
+
+
+ Merging diffrent branches:
 ``` git merg ```

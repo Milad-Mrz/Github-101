@@ -1,16 +1,11 @@
 # how to use github
 
 ## Method no. 1
-1. to clone / download the repository from git: ```ruby
-git clone https://github.com/Milad-Mrz/test.git
-2. to add all changes (either files or new lines): ```ruby
-git add . ``` 
-or to add changes for specific file: ```ruby
-git add "file_name.extention" ```  
-3. to add new commit with title A and description B: ```ruby
-git commit -m "..." -m "...2" ```
-4. to push the changes to Github: ```ruby
-git push origin main or git push origin master ```
+1. to clone / download the repository from git: ``` git clone https://github.com/Milad-Mrz/test.git ```
+2. to add all changes (either files or new lines): ``` git add . ``` 
+or to add changes for specific file: ``` git add "file_name.extention" ```  
+3. to add new commit with title A and description B: ``` git commit -m "..." -m "...2" ```
+4. to push the changes to Github: ``` git push origin main or git push origin master ```
 
 ---------------------------
 

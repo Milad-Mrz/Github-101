@@ -61,11 +61,8 @@ after this by simply writting  ``` git push ``` changes will be pushed to Github
 
 press "q" to quit
 
-5. test test test
-
-
- Merging diffrent branches:
-``` git merg ```
+5. To update your side branch by master/main branch: 
+``` git merge master ```
 
 6. Delete branch:
 ``` git branch -D "branch_name" ```

@@ -66,3 +66,7 @@ press "q" to quit
 
 6. Delete branch:
 ``` git branch -D "branch_name" ```
+
+
+7. Pull branch:
+``` git pull origin "branch_name" ```

@@ -4,7 +4,6 @@ Here is a summary of commands for pushing, pulling, and branching after connecti
 
 ## Clone or remote 
 **Method I:**
-
 Clone or download the existing repository from git:
 
 ``` git clone https://github.com/user_name/repository_name ```
@@ -31,7 +30,7 @@ Clone or download the existing repository from git:
 3. Create a new commit with title "A" and description "B":
 ``` git commit -m A -m B ```
 
-or, in short, instead of steps 2 & 3, add and commit at the same time: (only in cases of file modification, not creation)
+   or, in short, instead of steps 2 & 3, add and commit at the same time: (only in cases of file modification, not creation)
 
 ``` git commit -am A -m B ```
 
@@ -42,7 +41,7 @@ or, in short, instead of steps 2 & 3, add and commit at the same time: (only in 
 5. To set a default branch for future pushes, we can use "-u" just before "origin":
 ``` git push -u origin branch_name ```
 
-After this, by simply writing  ``` git push ``` changes will be pushed to Github.
+   After this, by simply writing  ``` git push ``` changes will be pushed to Github.
 
 
 
@@ -62,15 +61,14 @@ After this, by simply writing  ``` git push ``` changes will be pushed to Github
    (If there are confilicts between two versions then:
    press **q** to quit and you can address those confilits by merging)
 
-5. To update your side branch by master/main branch: 
-``` git merge master ``` or  ``` git merge "branch_name" ```, after the local merge, pull, commit, and push to update the remote version)
+5. To update your side branch by master/main branch use ``` git merge master ``` or ``` git merge "branch_name" ```, and after the local merge, pull, commit, and push to update the remote version.
 
-6. Pull a branch (to merge with a remote branch), 
+6. Pull a branch or to merge with a remote branch:  
 ``` git pull origin "branch_name" ```
 
-7. Delete a local branch, 
+7. Delete a local branch:  
 ``` git branch -D "branch_name" ```
-& to delete a branch on Github use the platform
+   & to delete a branch on Github use the platform.
 
 ## Forking:
 To create an editable legal copy of any third-party code and add it to your repository.

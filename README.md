@@ -37,6 +37,9 @@ Clone or download the existing repository from git:
 5. To set a default branch for future pushes, we can use "-u" just before "origin":
 ``` git push -u origin branch_name ```
 
+after this by simply writting  ``` git push ``` changes will be pushed to Github
+
+
 
 ## Branching:
 1. To check current branches:
@@ -45,5 +48,11 @@ Clone or download the existing repository from git:
 2. To create a new branch named "A":
 ``` git checkout -b A ```
 
-3. To switch to the "master" branch:
-``` git master checkout ``` 
+3. switch to for example the "master" branch:
+``` git checkout master ``` 
+
+4. Check what changes have been made:
+``` git diff "branch_name" ```
+
+5. Merging diffrent branches:
+``` git merg ```

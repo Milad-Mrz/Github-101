@@ -46,7 +46,7 @@ after this by simply writting  ``` git push ``` changes will be pushed to Github
 
 
 
-## Branching:
+## Branching, merging and pulling:
 1. To check all branches:
 ``` git branch ```
 
@@ -56,17 +56,25 @@ after this by simply writting  ``` git push ``` changes will be pushed to Github
 3. switch to for example the "master" branch:
 ``` git checkout master ``` 
 
-4. Check what changes have been made:
+4. Check current code to the "branch_name" and show changes that have been made:
 ``` git diff "branch_name" ```
 
-press "q" to quit
+(If there are confilicts between two versions then:
+press **q** to quit and you can address those confilits by merging)
 
 5. To update your side branch by master/main branch: 
 ``` git merge master ```
 
-6. Delete branch:
-``` git branch -D "branch_name" ```
+or  ``` git merge "branch_name" ```
 
+(after the merg, pull, commit, and push again)
 
-7. Pull branch:
+6. Pull branch (to merge on current system):
 ``` git pull origin "branch_name" ```
+
+7. Delete a local branch:
+``` git branch -D "branch_name" ```
+to delete a branch on Github use the platform
+
+## Forking:
+to creat editable legal copy of any third-party code and add it to your repository.

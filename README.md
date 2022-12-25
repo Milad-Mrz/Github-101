@@ -42,7 +42,7 @@ after this by simply writting  ``` git push ``` changes will be pushed to Github
 
 
 ## Branching:
-1. To check current branches:
+1. To check all branches:
 ``` git branch ```
 
 2. To create a new branch named "A":

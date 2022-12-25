@@ -2,12 +2,12 @@
 Here is a summary of commands for pushing, pulling, and branching after connecting your local machine to the website.
 
 
-## Remote or clone
-## Method no. 1
+## Clone or remote 
+** Method I: **
 Clone or download the existing repository from git:
 ``` git clone https://github.com/user_name/repository_name ```
 
-## Method no. 2
+** Method II: **
 1. Start git for a new folder:
 ``` git start ```
 2. Access the existing repository from git:

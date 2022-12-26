@@ -1,5 +1,5 @@
 # How to use Github 101
-Here is a summary of commands for pushing, pulling, and branching after connecting your local machine to the website.
+Here is a summary of commands for pushing, pulling, and branching after connecting your local machine to Github.
 
 
 ## Clone or remote a local version from Github
@@ -23,7 +23,7 @@ Clone or download the existing repository from git:
 
 
 ## Push
-After all modifications now it is time to update the remote version: 
+After all the modifications, now it is time to update the remote version:
 
 1. Add all changes (either files or new lines):
 ```git add```
@@ -49,7 +49,7 @@ After all modifications now it is time to update the remote version:
 
 
 ## Branching, merging, and pulling:
-To create and modify new feature while protect the main verion branches are needed
+Branches are needed to create and modify new features while protecting the main version.
 
 1. To check all local branches:
 ``` git branch ```
@@ -69,10 +69,10 @@ To create and modify new feature while protect the main verion branches are need
 5. To update your side branch by master/main branch use ``` git merge master ``` or ``` git merge "branch_name" ```, and after the local merge, pull, commit, and push to update the remote version.
 
 6. Pull a branch or to merge with a remote branch:  
-``` git pull origin "branch_name" ```
+``` git pull origin "branch_name_example" ```
 
 7. Delete a local branch:  
-``` git branch -D "branch_name" ```
+``` git branch -D "branch_name_example" ```
    & to delete a branch on Github use the platform.
 
 ## Forking:

@@ -2,7 +2,7 @@
 Here is a summary of commands for pushing, pulling, and branching after connecting your local machine to the website.
 
 
-## Clone or remote 
+## Clone or remote a local version from Github
 **Method I:**
 
 Clone or download the existing repository from git:
@@ -23,6 +23,8 @@ Clone or download the existing repository from git:
 
 
 ## Push
+After all modifications now it is time to update the remote version: 
+
 1. Add all changes (either files or new lines):
 ```git add```
 
@@ -36,28 +38,30 @@ Clone or download the existing repository from git:
    (this canbe used in cases of file modification and not file creation)
 
 
-4. Push the changes to the "branch_name":
-``` git push origin branch_name ```
+4. Push the changes to the "branch_name_example":
+``` git push origin branch_name_example ```
 
 5. To set a default branch for future pushes, we can use "-u" just before "origin":
-``` git push -u origin branch_name ```
+``` git push -u origin branch_name_example ```
 
    After this, by simply writing  ``` git push ``` changes will be pushed to Github.
 
 
 
 ## Branching, merging, and pulling:
-1. To check all branches:
+To create and modify new feature while protect the main verion branches are needed
+
+1. To check all local branches:
 ``` git branch ```
 
-2. To create a new branch named "A":
-``` git checkout -b A ```
+2. To create a new branch named "branch_name_example":
+``` git checkout -b branch_name_example ```
 
 3. switch to, for example, the "master" branch:
 ``` git checkout master ``` 
 
-4. Check the current code for the "branch_name" and show the changes that have been made:
-``` git diff "branch_name" ```
+4. Check the current branch and the "branch_name_example" and show the changes that have been made:
+``` git diff "branch_name_example" ```
 
    (If there are confilicts between two versions then:
    press **q** to quit and you can address those confilits by merging)

@@ -2,14 +2,16 @@
 Here is a summary of commands for pushing, pulling, and branching after connecting your local machine to Github.
 
 
-## Clone or remote a local version from Github
-**Method I:**
+## Clone
+Clone the remote version on Github and make a local copy.
+
+**Method I - Clone:**
 
 Clone or download the existing repository from git:
 
 ``` git clone https://github.com/user_name/repository_name ```
 
-**Method II:**
+**Method II - Remote:**
 
 1. Start git for a new folder:
 ``` git start ```
@@ -23,7 +25,7 @@ Clone or download the existing repository from git:
 
 
 ## Push
-After all the modifications, now it is time to update the remote version:
+After all the modifications, push will update the remote version:
 
 1. Add all changes (either files or new lines):
 ```git add```
@@ -49,7 +51,8 @@ After all the modifications, now it is time to update the remote version:
 
 
 ## Branching, merging, and pulling:
-Branches are needed to create and modify new features while protecting the main version.
+Branches are needed to create and modify new features while protecting the main version. 
+Merging and pulling are used to sync up two different branches.
 
 1. To check all local branches:
 ``` git branch ```

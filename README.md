@@ -49,7 +49,7 @@ Merging and pulling are used to sync up two different branches. <br />
 To create an editable legal copy of any third-party code and add it to your repository. <br />
 
 
-## How to Document your Project on GitHub:
+## How to document a Project on GitHub:
 
 **Adding illustrations to the README file:** <br />
 Use the following command to add files to fist page on Github.  ``` ![ ](./Folder/Image.png) ``` <br />

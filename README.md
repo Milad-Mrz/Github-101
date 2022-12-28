@@ -16,7 +16,7 @@ Clone or download the existing repository from git: <br />
 
 ## Push <br />
 After all the modifications, push will update the remote version: <br />
-1. Add all changes (either files or new lines): ```git add``` <br />
+1. Add all changes (either files or new lines): ```git add .``` <br />
 2. Make modifications to a specific file: ``` git add "file_name.extension ``` <br />
 3. Create a new commit with title "A" and description "B": ``` git commit -m A -m B ``` <br />
    or, use the shortcut, for steps 2 & 3: ``` git commit -am A -m B ``` <br />

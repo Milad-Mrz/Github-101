@@ -4,11 +4,11 @@ Here is a summary of commands for pushing, pulling, and branching after connecti
 **Clone:** <br />
 Clone the remote version on Github and make a local copy. <br />
 
-**Method I - Clone:** <br />
+**Method I:** <br />
 Clone or download the existing repository from git: <br />
 ``` git clone https://github.com/user_name/repository_name ```<br />
 
-**Method II - Remote:** <br />
+**Method II (Remote):** <br />
 1. Start git for a new folder: ``` git start ```  <br />
 2. Access the existing repository from Github: <br />
 ``` git remote add origin https://github.com/user_name/repository_name ``` <br />

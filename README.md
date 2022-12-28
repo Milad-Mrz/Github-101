@@ -82,6 +82,8 @@ Merging and pulling are used to sync up two different branches.
 To create an editable legal copy of any third-party code and add it to your repository.
 
 
-## Using Pandoc for Github's markdown conversion
-
-``` pandoc -s example_file --to=gfm -o README.md ```
+## Github tools
+1. **Pandoc** To convert any document such as word, pdf, or html to Github's markdown, we can use Pandoc on Linux as below:
+   A. Install pandoc on Linux from pandoc.org.
+   B. Open a terminal in the file directory and use the below command:
+   ``` pandoc -s example_file --to=gfm -o README.md ```

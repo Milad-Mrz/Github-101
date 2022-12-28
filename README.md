@@ -22,8 +22,8 @@ After all the modifications, push will update the remote version: <br />
    or, use the shortcut, for steps 2 & 3: ``` git commit -am A -m B ``` <br />
    only in cases of file modification, this will add all modifed files and commit at the same time <br />
 4. Push the changes to the "branch_name_example": ``` git push origin branch_name_example ``` <br />
-5. To set a default branch for future pushes, we can use "-u" just before "origin": ``` git push -u origin branch_name_example ``` <br />
-   After this, by simply writing  ``` git push ``` changes will be pushed to Github. <br />
+5. To set a default branch for future pushes, we can use "-u" just before "origin": <br />
+   ``` git push -u origin branch_name_example ``` After this, by simply writing  ``` git push ``` changes will be pushed to Github. <br />
 
 ## Branching, merging, and pulling: <br />
 Branches are needed to create and modify new features while protecting the main version.  <br />

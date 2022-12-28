@@ -80,3 +80,8 @@ Merging and pulling are used to sync up two different branches.
 
 ## Forking:
 To create an editable legal copy of any third-party code and add it to your repository.
+
+
+## Using Pandoc for Github's markdown conversion
+
+``` pandoc -s example.html --to=gfm -o README.md ```

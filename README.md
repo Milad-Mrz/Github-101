@@ -85,5 +85,4 @@ To create an editable legal copy of any third-party code and add it to your repo
 ## Github tools
 1. **Pandoc** To convert any document such as word, pdf, or html to Github's markdown, we can use Pandoc on Linux as below: <br />
    1.1. Install pandoc on Linux from pandoc.org. <br />
-   1.2. Open a terminal in the file directory and use the command: <br /> 
-   ``` pandoc -s example_file --to=gfm -o README.md ``` <br />
+   1.2. Open a terminal in the file directory and use the command: ``` pandoc -s example_file --to=gfm -o README.md ``` <br />

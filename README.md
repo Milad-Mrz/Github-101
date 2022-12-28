@@ -48,12 +48,13 @@ Merging and pulling are used to sync up two different branches. <br />
 ## Forking: <br />
 To create an editable legal copy of any third-party code and add it to your repository. <br />
 
-## Adding graph and Images: <br />
-Use the following command to add files to your README.md text.  ``` ![ ](./Folder/Image.png) ``` <br />
 
+## How to Document your Project on GitHub:
 
+**Adding illustrations to the README file:** <br />
+Use the following command to add files to fist page on Github.  ``` ![ ](./Folder/Image.png) ``` <br />
 
-## Github tools: <br />
+**Other Github tools:** <br />
 
 1. **Pandoc:** To convert any document such as word, pdf, or html to Github's markdown, we can use Pandoc on Linux as below: <br />
    1.1. Install pandoc on Linux from https://pandoc.org/ . <br />

@@ -1,7 +1,7 @@
 # How to use Github 101 <br />
 Here is a summary of commands for pushing, pulling, and branching after connecting your local machine to Github. <br />
 
-## Clone <br />
+## Clone: <br />
 Clone the remote version on Github and make a local copy. <br />
 
 **Method I - Clone:** <br />
@@ -14,7 +14,7 @@ Clone or download the existing repository from git: <br />
 ``` git remote add origin https://github.com/user_name/repository_name ``` <br />
 3. Check the access: ``` git remote -v ``` <br />
 
-## Push <br />
+## Push: <br />
 After all the modifications, push will update the remote version: <br />
 1. Add all changes (either files or new lines): ```git add .``` <br />
 2. Make modifications to a specific file: ``` git add "file_name.extension ``` <br />
@@ -25,7 +25,13 @@ After all the modifications, push will update the remote version: <br />
 5. To set a default branch for future pushes, we can use "-u" just before "origin": <br />
    ``` git push -u origin branch_name_example ``` After this, by simply writing  ``` git push ``` changes will be pushed to Github. <br />
 
-## Branching, merging, and pulling: <br />
+## Pull: <br />
+Use Pull to receive the latest version of the remote version; pulling will update the local version. <br />
+1. To update from "branch_name_example," use ``` git pull origin branch_name_example ``` <br />
+2. As before, we can use "-u" just before "origin": <br />
+``` git pull -u origin branch_name_example ``` Following that, we can run the command ``` git pull ``` . <br /> 
+
+## Branching, merging: <br />
 Branches are needed to create and modify new features while protecting the main version.  <br />
 Merging and pulling are used to sync up two different branches. <br />
 

@@ -48,6 +48,9 @@ Merging and pulling are used to sync up two different branches. <br />
 ## Forking: <br />
 To create an editable legal copy of any third-party code and add it to your repository. <br />
 
+## Adding graph and Images: <br />
+Use the following command to add files to your README.md text.  ``` ![ ](./Folder/Image.png) ``` <br />
+
 
 
 ## Github tools: <br />

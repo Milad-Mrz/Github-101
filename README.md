@@ -2,7 +2,7 @@
 Here is a summary of commands for pushing, pulling, and branching after connecting your local machine to Github. <br />
 ## Utilizing git for teamwork and file management
 **Clone:** <br />
-this is used to copy the remote version (on Github) and make a local copy. <br />
+Clone will copy the remote version of data and make a local copy. <br />
 
 **Method I:** <br />
 Clone or download the existing repository from git: <br />
@@ -15,7 +15,7 @@ Clone or download the existing repository from git: <br />
 3. Check the access: ``` git remote -v ``` <br />
 
 **Pull:** <br />
-Use Pull to receive the latest version of the remote version; pulling will update the local version. <br />
+we use pull to receive the latest version of the remote version; pulling will update the local version. <br />
 1. To update from "branch_name_example," use ``` git pull origin branch_name_example ``` <br />
 2. As before, we can use "-u" just before "origin": <br />
 ``` git pull -u origin branch_name_example ``` Following that, we can run the command ``` git pull ``` . <br /> 

@@ -1,88 +1,68 @@
-# How to use Github 101
-Here is a summary of commands for pushing, pulling, and branching after connecting your local machine to Github.
+# How to use Github 101 <br />
+Here is a summary of commands for pushing, pulling, and branching after connecting your local machine to Github. <br />
 
 
-## Clone
-Clone the remote version on Github and make a local copy.
+## Clone <br />
+Clone the remote version on Github and make a local copy. <br />
 
-**Method I - Clone:**
+**Method I - Clone:** <br />
+Clone or download the existing repository from git: <br />
+``` git clone https://github.com/user_name/repository_name ```<br />
 
-Clone or download the existing repository from git:
-
-``` git clone https://github.com/user_name/repository_name ```
-
-**Method II - Remote:**
-
-1. Start git for a new folder:
+**Method II - Remote:** <br />
+1. Start git for a new folder: <br />
 ``` git start ```
-
-2. Access the existing repository from Github:
-
-``` git remote add origin https://github.com/user_name/repository_name ```
-
-3. Check the access:
-``` git remote -v ```
+2. Access the existing repository from Github: <br />
+``` git remote add origin https://github.com/user_name/repository_name ``` <br />
+3. Check the access:  <br />
+``` git remote -v ``` <br />
 
 
-## Push
-After all the modifications, push will update the remote version:
+## Push <br />
+After all the modifications, push will update the remote version: <br />
+1. Add all changes (either files or new lines): <br />
+```git add``` <br />
+2. Make modifications to a specific file: <br />
+``` git add "file_name.extension ``` <br />
+3. Create a new commit with title "A" and description "B": <br />
+``` git commit -m A -m B ``` <br />
+   or, use the shortcut, instead of steps 2&3, add all modifed files and commit at the same time: ``` git commit -am A -m B ``` <br />
+   (this canbe used in cases of file modification and not file creation) <br />
+4. Push the changes to the "branch_name_example": <br />
+``` git push origin branch_name_example ``` <br />
+5. To set a default branch for future pushes, we can use "-u" just before "origin": <br />
+``` git push -u origin branch_name_example ``` <br />
 
-1. Add all changes (either files or new lines):
-```git add```
-
-2. Make modifications to a specific file:
-``` git add "file_name.extension ```
-
-3. Create a new commit with title "A" and description "B":
-``` git commit -m A -m B ```
-
-   or, use the shortcut, instead of steps 2&3, add all modifed files and commit at the same time: ``` git commit -am A -m B ```
-   (this canbe used in cases of file modification and not file creation)
-
-
-4. Push the changes to the "branch_name_example":
-``` git push origin branch_name_example ```
-
-5. To set a default branch for future pushes, we can use "-u" just before "origin":
-``` git push -u origin branch_name_example ```
-
-   After this, by simply writing  ``` git push ``` changes will be pushed to Github.
+   After this, by simply writing  ``` git push ``` changes will be pushed to Github. <br />
 
 
 
-## Branching, merging, and pulling:
-Branches are needed to create and modify new features while protecting the main version. 
-Merging and pulling are used to sync up two different branches.
+## Branching, merging, and pulling: <br />
+Branches are needed to create and modify new features while protecting the main version.  <br />
+Merging and pulling are used to sync up two different branches. <br />
 
-1. To check all local branches:
-``` git branch ```
+1. To check all local branches: <br />
+``` git branch ``` <br />
+2. To create a new branch named "branch_name_example": <br />
+``` git checkout -b branch_name_example ``` <br />
+3. switch to, for example, the "master" branch: <br />
+``` git checkout master ``` <br />
+4. Check the current branch and the "branch_name_example" and show the changes that have been made: <br />
+``` git diff "branch_name_example" ``` <br />
+   (If there are confilicts between two versions then: <br />
+   press **q** to quit and you can address those confilits by merging) <br />
+5. To update your side branch by master/main branch use ``` git merge master ``` or ``` git merge "branch_name" ```, and after the local merge, pull, commit, and push to update the remote version. <br />
+6. Pull a branch or to merge with a remote branch: <br /> 
+``` git pull origin "branch_name_example" ``` <br />
+7. Delete a local branch: <br /> 
+``` git branch -D "branch_name_example" ``` <br />
+   & to delete a branch on Github use the platform. <br />
 
-2. To create a new branch named "branch_name_example":
-``` git checkout -b branch_name_example ```
-
-3. switch to, for example, the "master" branch:
-``` git checkout master ``` 
-
-4. Check the current branch and the "branch_name_example" and show the changes that have been made:
-``` git diff "branch_name_example" ```
-
-   (If there are confilicts between two versions then:
-   press **q** to quit and you can address those confilits by merging)
-
-5. To update your side branch by master/main branch use ``` git merge master ``` or ``` git merge "branch_name" ```, and after the local merge, pull, commit, and push to update the remote version.
-
-6. Pull a branch or to merge with a remote branch:  
-``` git pull origin "branch_name_example" ```
-
-7. Delete a local branch:  
-``` git branch -D "branch_name_example" ```
-   & to delete a branch on Github use the platform.
-
-## Forking:
-To create an editable legal copy of any third-party code and add it to your repository.
+## Forking: <br />
+To create an editable legal copy of any third-party code and add it to your repository. <br />
 
 
-## Github tools:
+## Github tools: <br />
 1. **Pandoc:** To convert any document such as word, pdf, or html to Github's markdown, we can use Pandoc on Linux as below: <br />
    1.1. Install pandoc on Linux from https://pandoc.org/ . <br />
    1.2. Open a terminal in the file directory and use the command:   ``` pandoc -s example_file --to=gfm -o README.md ``` <br />
